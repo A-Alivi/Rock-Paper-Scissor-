@@ -49,13 +49,13 @@ class _SplashScreenState extends State<SplashScreen> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Icon(
+              const Icon(
                 Icons.sports_handball,
                 size: 100.0,
                 color: Colors.white,
               ),
-              SizedBox(height: 20.0),
-              Text(
+              const SizedBox(height: 20.0),
+              const Text(
                 'Rock Paper Scissors',
                 style: TextStyle(
                   fontSize: 24.0,
@@ -63,10 +63,10 @@ class _SplashScreenState extends State<SplashScreen> {
                   color: Colors.white,
                 ),
               ),
-              SizedBox(height: 20.0),
+              const SizedBox(height: 20.0),
               Text(
                 loadingText,
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 18.0,
                   color: Colors.white,
                 ),
