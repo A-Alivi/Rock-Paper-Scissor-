@@ -62,7 +62,10 @@ class _GameApplicationState extends State<GameApplication> {
                       fontWeight: FontWeight.bold,
                       fontSize: 20),
                 ),
-                Image.asset('images/$userChoice.png'),
+                Image.asset(
+                  'images/$userChoice.png',
+                  color: Colors.indigo,
+                ),
                 Builder(
                   builder: (BuildContext context) {
                     return TextButton(
@@ -102,7 +105,10 @@ class _GameApplicationState extends State<GameApplication> {
                     );
                   },
                 ),
-                Image.asset('images/$opponentChoice.png'),
+                Image.asset(
+                  'images/$opponentChoice.png',
+                  color: Colors.indigo,
+                ),
                 const Text(
                   'Opponent:',
                   style: TextStyle(
